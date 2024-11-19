@@ -691,6 +691,198 @@ df$DATE <- as.Date(paste(df$YEAR, df$MONTH, df$DAY, sep="-"), "%Y-%m-%d")
 filtered_df <- df[df$DATE >= as.Date("2020-01-31") & df$DATE <= as.Date("2022-06-10"), ]
 NG_COT_COVID_DB=filtered_df
 
+
+
+
+
+
+# Mise à jour pour la crise des subprimes (Subprime Crisis)
+df = CL_COT_DB
+df$DATE <- as.Date(paste(df$YEAR, df$MONTH, df$DAY, sep = "-"), "%Y-%m-%d")
+filtered_df <- df[df$DATE >= as.Date("2007-08-01") & df$DATE <= as.Date("2009-06-30"), ]
+CL_COT_SUBPRIME_DB = filtered_df
+
+df = CL_PC_DB
+df$DATE <- as.Date(paste(df$YEAR, df$MONTH, df$DAY, sep = "-"), "%Y-%m-%d")
+filtered_df <- df[df$DATE >= as.Date("2007-08-01") & df$DATE <= as.Date("2009-06-30"), ]
+CL_PC_SUBPRIME_DB = filtered_df
+
+df = GC_PC_DB
+df$DATE <- as.Date(paste(df$YEAR, df$MONTH, df$DAY, sep = "-"), "%Y-%m-%d")
+filtered_df <- df[df$DATE >= as.Date("2007-08-01") & df$DATE <= as.Date("2009-06-30"), ]
+GC_PC_SUBPRIME_DB = filtered_df
+
+df = SI_PC_DB
+df$DATE <- as.Date(paste(df$YEAR, df$MONTH, df$DAY, sep = "-"), "%Y-%m-%d")
+filtered_df <- df[df$DATE >= as.Date("2007-08-01") & df$DATE <= as.Date("2009-06-30"), ]
+SI_PC_SUBPRIME_DB = filtered_df
+
+df = HG_PC_DB
+df$DATE <- as.Date(paste(df$YEAR, df$MONTH, df$DAY, sep = "-"), "%Y-%m-%d")
+filtered_df <- df[df$DATE >= as.Date("2007-08-01") & df$DATE <= as.Date("2009-06-30"), ]
+HG_PC_SUBPRIME_DB = filtered_df
+
+df = PA_PC_DB
+df$DATE <- as.Date(paste(df$YEAR, df$MONTH, df$DAY, sep = "-"), "%Y-%m-%d")
+filtered_df <- df[df$DATE >= as.Date("2007-08-01") & df$DATE <= as.Date("2009-06-30"), ]
+PA_PC_SUBPRIME_DB = filtered_df
+
+df = NG_PC_DB
+df$DATE <- as.Date(paste(df$YEAR, df$MONTH, df$DAY, sep = "-"), "%Y-%m-%d")
+filtered_df <- df[df$DATE >= as.Date("2007-08-01") & df$DATE <= as.Date("2009-06-30"), ]
+NG_PC_SUBPRIME_DB = filtered_df
+
+df = GC_COT_DB
+df$DATE <- as.Date(paste(df$YEAR, df$MONTH, df$DAY, sep = "-"), "%Y-%m-%d")
+filtered_df <- df[df$DATE >= as.Date("2007-08-01") & df$DATE <= as.Date("2009-06-30"), ]
+GC_COT_SUBPRIME_DB = filtered_df
+
+df = SI_COT_DB
+df$DATE <- as.Date(paste(df$YEAR, df$MONTH, df$DAY, sep = "-"), "%Y-%m-%d")
+filtered_df <- df[df$DATE >= as.Date("2007-08-01") & df$DATE <= as.Date("2009-06-30"), ]
+SI_COT_SUBPRIME_DB = filtered_df
+
+df = HG_COT_DB
+df$DATE <- as.Date(paste(df$YEAR, df$MONTH, df$DAY, sep = "-"), "%Y-%m-%d")
+filtered_df <- df[df$DATE >= as.Date("2007-08-01") & df$DATE <= as.Date("2009-06-30"), ]
+HG_COT_SUBPRIME_DB = filtered_df
+
+df = PA_COT_DB
+df$DATE <- as.Date(paste(df$YEAR, df$MONTH, df$DAY, sep = "-"), "%Y-%m-%d")
+filtered_df <- df[df$DATE >= as.Date("2007-08-01") & df$DATE <= as.Date("2009-06-30"), ]
+PA_COT_SUBPRIME_DB = filtered_df
+
+df = NG_COT_DB
+df$DATE <- as.Date(paste(df$YEAR, df$MONTH, df$DAY, sep = "-"), "%Y-%m-%d")
+filtered_df <- df[df$DATE >= as.Date("2007-08-01") & df$DATE <= as.Date("2009-06-30"), ]
+NG_COT_SUBPRIME_DB = filtered_df
+
+
+# Mise à jour pour la crise des subprimes (Subprime Crisis)
+df = CL_COT_DB
+df$DATE <- as.Date(paste(df$YEAR, df$MONTH, df$DAY, sep = "-"), "%Y-%m-%d")
+filtered_df <- df[df$DATE >= as.Date("2011-01-01") & df$DATE <= as.Date("2019-12-31"), ]
+CL_COT_20112019_DB = filtered_df
+
+df = CL_PC_DB
+df$DATE <- as.Date(paste(df$YEAR, df$MONTH, df$DAY, sep = "-"), "%Y-%m-%d")
+filtered_df <- df[df$DATE >= as.Date("2011-01-01") & df$DATE <= as.Date("2019-12-31"), ]
+CL_PC_20112019_DB = filtered_df
+
+df = GC_PC_DB
+df$DATE <- as.Date(paste(df$YEAR, df$MONTH, df$DAY, sep = "-"), "%Y-%m-%d")
+filtered_df <- df[df$DATE >= as.Date("2011-01-01") & df$DATE <= as.Date("2019-12-31"), ]
+GC_PC_20112019_DB = filtered_df
+
+df = SI_PC_DB
+df$DATE <- as.Date(paste(df$YEAR, df$MONTH, df$DAY, sep = "-"), "%Y-%m-%d")
+filtered_df <- df[df$DATE >= as.Date("2011-01-01") & df$DATE <= as.Date("2019-12-31"), ]
+SI_PC_20112019_DB = filtered_df
+
+df = HG_PC_DB
+df$DATE <- as.Date(paste(df$YEAR, df$MONTH, df$DAY, sep = "-"), "%Y-%m-%d")
+filtered_df <- df[df$DATE >= as.Date("2011-01-01") & df$DATE <= as.Date("2019-12-31"), ]
+HG_PC_20112019_DB = filtered_df
+
+df = PA_PC_DB
+df$DATE <- as.Date(paste(df$YEAR, df$MONTH, df$DAY, sep = "-"), "%Y-%m-%d")
+filtered_df <- df[df$DATE >= as.Date("2011-01-01") & df$DATE <= as.Date("2019-12-31"), ]
+PA_PC_20112019_DB = filtered_df
+
+df = NG_PC_DB
+df$DATE <- as.Date(paste(df$YEAR, df$MONTH, df$DAY, sep = "-"), "%Y-%m-%d")
+filtered_df <- df[df$DATE >= as.Date("2011-01-01") & df$DATE <= as.Date("2019-12-31"), ]
+NG_PC_20112019_DB = filtered_df
+
+df = GC_COT_DB
+df$DATE <- as.Date(paste(df$YEAR, df$MONTH, df$DAY, sep = "-"), "%Y-%m-%d")
+filtered_df <- df[df$DATE >= as.Date("2011-01-01") & df$DATE <= as.Date("2019-12-31"), ]
+GC_COT_20112019_DB = filtered_df
+
+df = SI_COT_DB
+df$DATE <- as.Date(paste(df$YEAR, df$MONTH, df$DAY, sep = "-"), "%Y-%m-%d")
+filtered_df <- df[df$DATE >= as.Date("2011-01-01") & df$DATE <= as.Date("2019-12-31"), ]
+SI_COT_20112019_DB = filtered_df
+
+df = HG_COT_DB
+df$DATE <- as.Date(paste(df$YEAR, df$MONTH, df$DAY, sep = "-"), "%Y-%m-%d")
+filtered_df <- df[df$DATE >= as.Date("2011-01-01") & df$DATE <= as.Date("2019-12-31"), ]
+HG_COT_20112019_DB = filtered_df
+
+df = PA_COT_DB
+df$DATE <- as.Date(paste(df$YEAR, df$MONTH, df$DAY, sep = "-"), "%Y-%m-%d")
+filtered_df <- df[df$DATE >= as.Date("2011-01-01") & df$DATE <= as.Date("2019-12-31"), ]
+PA_COT_20112019_DB = filtered_df
+
+df = NG_COT_DB
+df$DATE <- as.Date(paste(df$YEAR, df$MONTH, df$DAY, sep = "-"), "%Y-%m-%d")
+filtered_df <- df[df$DATE >= as.Date("2011-01-01") & df$DATE <= as.Date("2019-12-31"), ]
+NG_COT_20112019_DB = filtered_df
+
+# Fonction générique pour charger les données à partir des fichiers RData et filtrer pour la crise des subprimes
+load_and_filter_subprime_data <- function(file_name, variable_name) {
+  load(file_name)
+  df <- get(variable_name)
+  df$DATE <- as.Date(paste(df$YEAR, df$MONTH, df$DAY, sep = "-"), "%Y-%m-%d")
+  filtered_df <- df[df$DATE >= as.Date("2007-08-01") & df$DATE <= as.Date("2009-06-30"), ]
+  # Insérer le suffixe "_SUBPRIME" entre "COT" ou "PC" et "DB"
+  new_variable_name <- gsub("(COT|PC)(.*)", "\\1_SUBPRIME\\2", variable_name)
+  assign(new_variable_name, filtered_df, envir = .GlobalEnv)
+}
+
+# Liste des fichiers RData et les noms des variables à traiter
+datasets <- list(
+  list(file = "CL_COT_DB.RData", var = "CL_COT_DB"),
+  list(file = "CL_PC_DB.RData", var = "CL_PC_DB"),
+  list(file = "GC_PC_DB.RData", var = "GC_PC_DB"),
+  list(file = "SI_PC_DB.RData", var = "SI_PC_DB"),
+  list(file = "HG_PC_DB.RData", var = "HG_PC_DB"),
+  list(file = "PA_PC_DB.RData", var = "PA_PC_DB"),
+  list(file = "NG_PC_DB.RData", var = "NG_PC_DB"),
+  list(file = "GC_COT_DB.RData", var = "GC_COT_DB"),
+  list(file = "SI_COT_DB.RData", var = "SI_COT_DB"),
+  list(file = "HG_COT_DB.RData", var = "HG_COT_DB"),
+  list(file = "PA_COT_DB.RData", var = "PA_COT_DB"),
+  list(file = "NG_COT_DB.RData", var = "NG_COT_DB")
+)
+
+# Charger et filtrer chaque dataset
+for (dataset in datasets) {
+  load_and_filter_subprime_data(dataset$file, dataset$var)
+}
+
+
+# Fonction générique pour charger les données à partir des fichiers RData et filtrer pour la période 2011-2019
+load_and_filter_20112019_data <- function(file_name, variable_name) {
+  load(file_name)
+  df <- get(variable_name)
+  df$DATE <- as.Date(paste(df$YEAR, df$MONTH, df$DAY, sep = "-"), "%Y-%m-%d")
+  filtered_df <- df[df$DATE >= as.Date("2011-01-01") & df$DATE <= as.Date("2019-12-31"), ]
+  # Insérer le suffixe "_20112019" entre "COT" ou "PC" et "DB"
+  new_variable_name <- gsub("(COT|PC)(.*)", "\\1_20112019\\2", variable_name)
+  assign(new_variable_name, filtered_df, envir = .GlobalEnv)
+}
+
+datasets <- list(
+  list(file = "CL_COT_DB.RData", var = "CL_COT_DB"),
+  list(file = "CL_PC_DB.RData", var = "CL_PC_DB"),
+  list(file = "GC_PC_DB.RData", var = "GC_PC_DB"),
+  list(file = "SI_PC_DB.RData", var = "SI_PC_DB"),
+  list(file = "HG_PC_DB.RData", var = "HG_PC_DB"),
+  list(file = "PA_PC_DB.RData", var = "PA_PC_DB"),
+  list(file = "NG_PC_DB.RData", var = "NG_PC_DB"),
+  list(file = "GC_COT_DB.RData", var = "GC_COT_DB"),
+  list(file = "SI_COT_DB.RData", var = "SI_COT_DB"),
+  list(file = "HG_COT_DB.RData", var = "HG_COT_DB"),
+  list(file = "PA_COT_DB.RData", var = "PA_COT_DB"),
+  list(file = "NG_COT_DB.RData", var = "NG_COT_DB")
+)
+
+# Charger et filtrer chaque dataset
+for (dataset in datasets) {
+  load_and_filter_20112019_data(dataset$file, dataset$var)
+}
+
 # These subsets are then saved as separate Rdata files for further analysis.
 
 save(CL_PC_ZLB_DB,file = "CL_PC_ZLB_DB.Rdata")
@@ -723,4 +915,33 @@ save(HG_COT_COVID_DB,file = "HG_COT_COVID_DB.Rdata")
 save(PA_COT_COVID_DB,file = "PA_COT_COVID_DB.Rdata")
 save(NG_COT_COVID_DB,file = "NG_COT_COVID_DB.Rdata")
 
+
+
+save(CL_PC_SUBPRIME_DB, file = "CL_PC_SUBPRIME_DB.RData")
+save(GC_PC_SUBPRIME_DB, file = "GC_PC_SUBPRIME_DB.RData")
+save(SI_PC_SUBPRIME_DB, file = "SI_PC_SUBPRIME_DB.RData")
+save(HG_PC_SUBPRIME_DB, file = "HG_PC_SUBPRIME_DB.RData")
+save(PA_PC_SUBPRIME_DB, file = "PA_PC_SUBPRIME_DB.RData")
+save(NG_PC_SUBPRIME_DB, file = "NG_PC_SUBPRIME_DB.RData")
+
+save(CL_COT_SUBPRIME_DB, file = "CL_COT_SUBPRIME_DB.RData")
+save(GC_COT_SUBPRIME_DB, file = "GC_COT_SUBPRIME_DB.RData")
+save(SI_COT_SUBPRIME_DB, file = "SI_COT_SUBPRIME_DB.RData")
+save(HG_COT_SUBPRIME_DB, file = "HG_COT_SUBPRIME_DB.RData")
+save(PA_COT_SUBPRIME_DB, file = "PA_COT_SUBPRIME_DB.RData")
+save(NG_COT_SUBPRIME_DB, file = "NG_COT_SUBPRIME_DB.RData")
+
+save(CL_PC_20112019_DB, file = "CL_PC_20112019_DB.RData")
+save(GC_PC_20112019_DB, file = "GC_PC_20112019_DB.RData")
+save(SI_PC_20112019_DB, file = "SI_PC_20112019_DB.RData")
+save(HG_PC_20112019_DB, file = "HG_PC_20112019_DB.RData")
+save(PA_PC_20112019_DB, file = "PA_PC_20112019_DB.RData")
+save(NG_PC_20112019_DB, file = "NG_PC_20112019_DB.RData")
+
+save(CL_COT_20112019_DB, file = "CL_COT_20112019_DB.RData")
+save(GC_COT_20112019_DB, file = "GC_COT_20112019_DB.RData")
+save(SI_COT_20112019_DB, file = "SI_COT_20112019_DB.RData")
+save(HG_COT_20112019_DB, file = "HG_COT_20112019_DB.RData")
+save(PA_COT_20112019_DB, file = "PA_COT_20112019_DB.RData")
+save(NG_COT_20112019_DB, file = "NG_COT_20112019_DB.RData")
 
